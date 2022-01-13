@@ -1,13 +1,13 @@
-import MovieScore from "components/Navbar/MovieScore";
+import MovieScore from "components/MovieScore";
 import { Link } from "react-router-dom";
 
 function MovieCard() {
 
     const movie = {
         id: 1,
-        image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
-        title: "The Witcher",
-        count: 2,
+        image: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gZlZLxJMfnSeS60abFZMh1IvODQ.jpg",
+        title: "The Matrix Resurrections",
+        count: 20,
         score: 4.5
     };
 
