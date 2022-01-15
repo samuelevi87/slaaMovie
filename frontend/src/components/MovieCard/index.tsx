@@ -1,16 +1,13 @@
 import MovieScore from "components/MovieScore";
 import { Link } from "react-router-dom";
+import { Movie } from "types/movie";
 
-function MovieCard() {
+type Props = {
+    movie:Movie;
+}
 
-    const movie = {
-        id: 1,
-        image: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gZlZLxJMfnSeS60abFZMh1IvODQ.jpg",
-        title: "The Matrix Resurrections",
-        count: 20,
-        score: 4.5
-    };
-
+function MovieCard({movie} : Props) {
+    
     return (
         <div>
             <img className="slaamovie-movie-card-image" src={movie.image} alt={movie.title} />
